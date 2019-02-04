@@ -17,7 +17,7 @@ class String
 
   def count_sentences
     
-    self.split(/[?!.]/).count{ |str| 
+    self.split(/[?!.]/).count{ |str| binding.pry}
     
   end
 end
